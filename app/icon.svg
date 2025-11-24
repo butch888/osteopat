@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4A90E2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2E5C8A;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Круг (Vitruvian circle) -->
+  <circle cx="50" cy="50" r="45" fill="url(#bgGradient)" stroke="#FFFFFF" stroke-width="1.5" opacity="0.3"/>
+  
+  <!-- Квадрат (Vitruvian square) -->
+  <rect x="12" y="12" width="76" height="76" fill="none" stroke="#FFFFFF" stroke-width="1.5" opacity="0.3"/>
+  
+  <!-- Вентурианский человек -->
+  <!-- Голова -->
+  <circle cx="50" cy="18" r="6" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+  
+  <!-- Шея -->
+  <line x1="50" y1="24" x2="50" y2="28" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Торс -->
+  <ellipse cx="50" cy="40" rx="8" ry="12" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+  
+  <!-- Позвоночник (центральная линия) -->
+  <line x1="50" y1="28" x2="50" y2="52" stroke="#FFFFFF" stroke-width="1.5" opacity="0.6"/>
+  
+  <!-- Левая рука (верхняя позиция) -->
+  <line x1="50" y1="32" x2="30" y2="25" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="30" cy="25" r="3" fill="#FFFFFF"/>
+  
+  <!-- Правая рука (верхняя позиция) -->
+  <line x1="50" y1="32" x2="70" y2="25" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="70" cy="25" r="3" fill="#FFFFFF"/>
+  
+  <!-- Левая рука (боковая позиция) -->
+  <line x1="50" y1="32" x2="25" y2="40" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+  <circle cx="25" cy="40" r="3" fill="#FFFFFF" opacity="0.7"/>
+  
+  <!-- Правая рука (боковая позиция) -->
+  <line x1="50" y1="32" x2="75" y2="40" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+  <circle cx="75" cy="40" r="3" fill="#FFFFFF" opacity="0.7"/>
+  
+  <!-- Таз -->
+  <ellipse cx="50" cy="52" rx="10" ry="6" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+  
+  <!-- Левая нога (прямая позиция) -->
+  <line x1="50" y1="58" x2="50" y2="82" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="50" cy="82" r="4" fill="#FFFFFF"/>
+  
+  <!-- Правая нога (прямая позиция) -->
+  <line x1="50" y1="58" x2="50" y2="82" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Левая нога (раскинутая позиция) -->
+  <line x1="50" y1="58" x2="35" y2="80" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+  <circle cx="35" cy="80" r="4" fill="#FFFFFF" opacity="0.7"/>
+  
+  <!-- Правая нога (раскинутая позиция) -->
+  <line x1="50" y1="58" x2="65" y2="80" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+  <circle cx="65" cy="80" r="4" fill="#FFFFFF" opacity="0.7"/>
+  
+  <!-- Центральная точка (пупок) -->
+  <circle cx="50" cy="40" r="2" fill="#FFFFFF" opacity="0.8"/>
+</svg>
+
