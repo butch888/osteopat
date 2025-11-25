@@ -50,12 +50,15 @@ export default function Home() {
         </div>
 
         <div className="bg-blue-50 rounded-lg p-6 sm:p-8 text-center">
-          <h2 className="text-xl sm:text-2xl font-semibold text-gray-800 mb-3 sm:mb-4">
-            Записаться на прием
-          </h2>
-          <p className="text-sm sm:text-base text-gray-700 mb-4 sm:mb-6">
-            Свяжитесь со мной для записи на консультацию
-          </p>
+          <Link href="/contacts">
+            <h2 className="text-xl sm:text-2xl font-semibold text-gray-800 mb-3 sm:mb-4">
+              Записаться на прием
+            </h2>
+            <p className="text-sm sm:text-base text-gray-700 mb-4 sm:mb-6">
+              Свяжитесь со мной для записи на консультацию
+            </p>
+          </Link>
+          
           <div className="space-y-2 text-gray-700 text-sm sm:text-base">
             <p>Телефон: <a href="tel:+79061800916" className="text-blue-600 hover:underline">+7 906 180-09-16</a></p>
             <p>Email: example@example.com</p>

@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Services() {
   const services = [
     {
@@ -73,12 +75,14 @@ export default function Services() {
         </div>
         
         <div className="mt-6 sm:mt-8 bg-white rounded-lg p-6 sm:p-8 text-center border border-gray-200">
-          <h2 className="text-xl sm:text-2xl font-semibold text-gray-800 mb-3 sm:mb-4">
-            Записаться на прием
-          </h2>
-          <p className="text-sm sm:text-base text-gray-700 mb-4 sm:mb-6">
-            Для записи на консультацию или лечение, пожалуйста, свяжитесь со мной
-          </p>
+          <Link href="/contacts">
+            <h2 className="text-xl sm:text-2xl font-semibold text-gray-800 mb-3 sm:mb-4">
+              Записаться на прием
+            </h2>
+            <p className="text-sm sm:text-base text-gray-700 mb-4 sm:mb-6">
+              Для записи на консультацию или лечение, пожалуйста, свяжитесь со мной
+            </p>
+          </Link>
           <div className="space-y-2 text-gray-700 text-sm sm:text-base">
             <p>Телефон: <a href="tel:+79061800916" className="text-blue-600 hover:underline">+7 906 180-09-16</a></p>
             <p>Email: example@example.com</p>
