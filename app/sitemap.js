@@ -1,4 +1,4 @@
-// app/sitemap.ts
+// app/sitemap.js
 export default async function sitemap() {
   const baseUrl = 'https://osteopat.vercel.app';
 
