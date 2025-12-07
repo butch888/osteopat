@@ -18,6 +18,12 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Остеопатия, мануальная терапия, массаж - Профессиональное лечение",
   description: "Комплексное лечение с использованием остеопатии, мануальной терапии и массажа. Индивидуальный подход и рекомендованный комплекс упражнений.",
+  keywords: "остеопатия, мануальная терапия, массаж, лечение спины, реабилитация",
+  openGraph: {
+    title: "Остеопатия, мануальная терапия, массаж - Профессиональное лечение",
+    description: "Комплексное лечение с использованием остеопатии, мануальной терапии и массажа.",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
@@ -27,6 +33,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ru">
+      <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="google-site-verification" content="rduEApYJbSg4KXKhaQuAe331P6SdqkNnh3SZsUYTO3Q" />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
@@ -34,7 +44,6 @@ export default function RootLayout({
         <div className="pt-16">
           {children}
           <Analytics />
-
         </div>
       </body>
     </html>
