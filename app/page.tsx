@@ -61,7 +61,7 @@ export default function Home() {
           
           <div className="space-y-2 text-gray-700 text-sm sm:text-base">
             <p>Телефон: <a href="tel:+79061800916" className="text-blue-600 hover:underline">+7 906 180-09-16</a></p>
-            <p>Email: example@example.com</p>
+            <p>Email: wladimirks@yandex.ru</p>
           </div>
         </div>
       </div>
