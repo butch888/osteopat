@@ -30,7 +30,7 @@ export default function Services() {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white py-8 sm:py-12 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-6xl mx-auto">
+      <div className="max-w-5xl mx-auto">
         <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-8 sm:mb-12 text-center">
           Услуги
         </h1>
