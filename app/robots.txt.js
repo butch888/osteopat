@@ -4,8 +4,6 @@ export default function robots() {
     rules: {
       userAgent: '*',
       allow: '/',
-      // Если у вас есть закрытые разделы, добавьте:
-      // disallow: '/admin/',
     },
     sitemap: 'https://osteopat.vercel.app/sitemap.xml',
   };
