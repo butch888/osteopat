@@ -15,7 +15,7 @@ export default function Navigation() {
               href="/"
               className="flex items-center px-2 sm:px-4 text-lg sm:text-xl font-bold text-blue-600 hover:text-blue-800"
             >
-              Остеопат
+              Мануальная терапия и массаж
             </Link>
           </div>
           
@@ -117,4 +117,3 @@ export default function Navigation() {
     </nav>
   );
 }
-

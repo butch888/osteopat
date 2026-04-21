@@ -47,7 +47,7 @@ export default function Videos() {
           Видео с канала
         </h1>
         <p className="text-center text-sm sm:text-base text-gray-600 mb-8 sm:mb-12 px-4">
-          Полезные видео об остеопатии, лечении и здоровье
+          Полезные видео о мануальной терапии, массаже, лечении и здоровье
         </p>
 
         {videos.length === 0 ? (
@@ -88,4 +88,3 @@ export default function Videos() {
     </div>
   );
 }
-
